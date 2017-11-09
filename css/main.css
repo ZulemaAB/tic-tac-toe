@@ -1,0 +1,34 @@
+*{
+  box-sizing:border-box;
+}
+.title {
+  
+    padding: 10px;
+}
+
+.tictactoe {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  font-size: 25px;
+  font-family: 'Helvetica';
+  color:#000;
+}
+
+.tictactoe .row{
+  height: 100px;
+}
+
+.tictactoe .row:not(:last-child){
+  border-bottom: 1px solid black;
+}
+.tictactoe .row .cell {
+  height: 100px;
+  width: 100px;
+  float:left;
+  text-align: center;
+  padding-top: 32px;
+}
+.tictactoe .row .cell:not(:last-child) {
+  border-right: 1px solid black;
+}
